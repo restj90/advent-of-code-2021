@@ -1,9 +1,6 @@
 import pathlib
 from aocd import get_data, submit
 
-# requires /inputs directory to be created
-# requires .token file (git-ignored) to be created
-#   how to get session token -> https://github.com/wimglenn/advent-of-code-wim/issues/1 
 ROOT=pathlib.Path(__file__).parent.resolve()
 INPUTS_DIR = ROOT/'inputs'
 AOC_SESSION=(ROOT/'.token').read_text().strip()
@@ -17,7 +14,7 @@ def save_data_file(day, year):
         
 def read_lines(file):
     with open(file, "r") as f:
-        return f.read().splitlines()
+        return f.read().strip().splitlines()
 
 def read_integers(file):
     input_lines = read_lines(file)
