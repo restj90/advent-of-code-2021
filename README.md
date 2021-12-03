@@ -4,7 +4,7 @@ My solutions to the Advent of Code 2021 puzzles.
 ## prereqs
 miniconda3 (python 3.9)\
 /inputs directory\
-.token file (git-ignored) with [token id](https://github.com/wimglenn/advent-of-code-wim/issues/1) populated 
+.token file (git-ignored) with [session id](https://github.com/wimglenn/advent-of-code-wim/issues/1) populated 
 
 ## install
 ```
