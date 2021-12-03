@@ -13,3 +13,6 @@ conda activate aoc2021
 conda install --file requirements.txt
 ```
 tested with visual studio code and jupyter extension in WSL2
+
+## submit solutions
+delete contents of /inputs directory and populate .token file in order to submit solutions for your own session
