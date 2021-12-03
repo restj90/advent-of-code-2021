@@ -16,7 +16,7 @@ def save_data_file(day, year):
     return file
         
 def read_lines(file):
-    with open(file) as f:
+    with open(file, "r") as f:
         return f.read().splitlines()
 
 def read_integers(file):
