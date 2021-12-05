@@ -10,7 +10,7 @@ miniconda3 (python 3.9)\
 ```
 conda create --name aoc2021 python=3.9
 conda activate aoc2021
-conda install --file requirements.txt
+pip3 install -r requirements.txt
 ```
 tested with visual studio code and jupyter extension in WSL2
 
