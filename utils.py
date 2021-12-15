@@ -15,7 +15,7 @@ def save_data_file(day, year):
 def read_lines(file):
     with open(file, "r") as f:
         return f.read().strip().splitlines()
-    
+        
 def read_csv(file):
     with open(file, "r") as f:
         return f.read().strip().split(',')
